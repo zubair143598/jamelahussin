@@ -1,0 +1,283 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "services": "Services",
+    "fleet": "Fleet",
+    "industries": "Industries",
+    "quote": "Get Quote",
+    "careers": "Careers",
+    "contact": "Contact"
+  },
+  "common": {
+    "learnMore": "Learn more",
+    "getQuote": "Request a Quote",
+    "contactUs": "Contact Us",
+    "callNow": "Call Now",
+    "viewAll": "View all",
+    "readMore": "Read more",
+    "submit": "Submit",
+    "sending": "Sending...",
+    "language": "العربية"
+  },
+  "hero": {
+    "eyebrow": "Trusted Transport Partner — Kingdom of Saudi Arabia",
+    "title": "Powering KSA's Industries, One Delivery at a Time",
+    "subtitle": "Jameela hussain delivers Aramco fuels, water, and construction materials across the Kingdom with a premium fleet of Mercedes Actros tankers.",
+    "cta1": "Request a Quote",
+    "cta2": "Our Services"
+  },
+  "stats": {
+    "fleet": "Modern Trucks",
+    "years": "Years of Trust",
+    "delivered": "Liters Delivered",
+    "coverage": "KSA Coverage"
+  },
+  "services": {
+    "title": "Our Services",
+    "subtitle": "Comprehensive transport & logistics solutions",
+    "fuel": {
+      "title": "Fuel Transport",
+      "desc": "Petrol 91, 95, Diesel and Kerosene from Aramco terminals to companies and petrol stations across KSA."
+    },
+    "water": {
+      "title": "Water Tanker Delivery",
+      "desc": "Reliable potable & industrial water delivery via certified water tanker fleet."
+    },
+    "rental": {
+      "title": "Tanker Rental",
+      "desc": "Diesel, benzine, and water tankers available for short and long-term rental."
+    },
+    "construction": {
+      "title": "Construction Materials",
+      "desc": "Sand, aggregate, cement, and bulk material delivery to building sites."
+    },
+    "bulk": {
+      "title": "Bulk Logistics",
+      "desc": "Heavy-duty Mercedes MP4 & MP5 trucks for long-haul bulk transport."
+    },
+    "emergency": {
+      "title": "24/7 Emergency Supply",
+      "desc": "Round-the-clock dispatch for urgent fuel and water needs."
+    }
+  },
+  "about": {
+    "title": "About Jameela Hussain",
+    "lead": "A Saudi-owned transport company built on safety, reliability, and the highest fleet standards.",
+    "p1": "Jameela Hussain is a Saudi Arabian transport and logistics company specializing in the safe transport of petroleum products, water supply, and construction materials. We operate a modern fleet of Mercedes-Benz Actros MP4 and MP5 tankers that meet the strictest Aramco safety standards.",
+    "p2": "From Aramco terminals to petrol stations (mahatat), industrial sites, and construction projects across the Kingdom, our drivers and dispatch team work around the clock to keep your operations moving.",
+    "mission": "Mission",
+    "missionText": "To deliver fuel, water, and materials with uncompromising safety and on-time precision.",
+    "vision": "Vision",
+    "visionText": "To be the most trusted private transport partner of Aramco and KSA's industrial sector.",
+    "values": "Values",
+    "valuesText": "Safety first, integrity, reliability, and partnership."
+  },
+  "fleet": {
+    "title": "Our Fleet",
+    "subtitle": "Premium Mercedes-Benz Actros tankers built for the Kingdom",
+    "mp5": {
+      "title": "Mercedes Actros MP5",
+      "desc": "Latest-generation tractor heads with advanced safety, telematics, and fuel efficiency."
+    },
+    "mp4": {
+      "title": "Mercedes Actros MP4",
+      "desc": "Proven workhorse for long-haul fuel and water transport across Saudi Arabia."
+    },
+    "fuelTanker": {
+      "title": "Fuel Tankers",
+      "desc": "Multi-compartment tankers compliant with Aramco loading standards."
+    },
+    "waterTanker": {
+      "title": "Water Tankers",
+      "desc": "Stainless-steel potable water tankers and large-capacity industrial units."
+    }
+  },
+  "industries": {
+    "title": "Industries We Serve",
+    "subtitle": "Trusted by leaders across Saudi Arabia",
+    "aramco": "Saudi Aramco Supply Chain",
+    "stations": "Petrol Stations (Mahatat)",
+    "construction": "Construction & Contracting",
+    "industrial": "Industrial & Manufacturing",
+    "municipal": "Municipal Water Supply",
+    "events": "Events & Remote Sites"
+  },
+  "quote": {
+    "title": "Request a Quote",
+    "subtitle": "Tell us about your transport needs and we'll respond within 24 hours.",
+    "name": "Full name",
+    "email": "Email",
+    "phone": "Phone",
+    "company": "Company name",
+    "service": "Service required",
+    "servicePlaceholder": "Select a service",
+    "message": "Details of your request",
+    "success": "Quote request received — we'll contact you shortly.",
+    "error": "Something went wrong. Please try again."
+  },
+  "careers": {
+    "title": "Careers at Jameela Hussain",
+    "subtitle": "Join a team that keeps the Kingdom moving.",
+    "intro": "We are always looking for experienced drivers, dispatchers, mechanics, and operations staff. Apply below.",
+    "position": "Position applying for",
+    "experience": "Years of experience",
+    "coverLetter": "Cover letter / message",
+    "success": "Application received — thank you!"
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "We're available 24/7 for urgent requests.",
+    "address": "Riyadh, Kingdom of Saudi Arabia",
+    "phone": "Phone",
+    "email": "Email",
+    "hours": "Working Hours",
+    "hoursValue": "Sun – Thu: 7:00 – 19:00 · 24/7 Dispatch",
+    "formTitle": "Send us a message",
+    "subject": "Subject",
+    "success": "Message sent — we'll be in touch soon."
+  },
+  "footer": {
+    "tagline": "Premium transport & logistics across the Kingdom of Saudi Arabia.",
+    "quick": "Quick Links",
+    "services": "Services",
+    "contact": "Contact",
+    "rights": "2026 Jameela Hussain. All rights reserved.",
+    "title": "Jameela Hussain"
+  },
+
+  "terms": {
+    "title": "Terms of Service",
+    "lastUpdated": "Last Updated",
+    "date": "January 2026",
+
+    "sections": {
+      "introduction": {
+        "title": "Introduction",
+        "content": "These Terms of Service govern your use of the Jameela Hussain website and any transportation, logistics, fuel transportation, water delivery, tanker rental, and related services offered by Jameela Hussain within the Kingdom of Saudi Arabia."
+      },
+
+      "acceptance": {
+        "title": "Acceptance of Terms",
+        "content": "By accessing our website, requesting quotations, submitting forms, or using our services, you agree to be bound by these Terms of Service and all applicable laws and regulations of the Kingdom of Saudi Arabia."
+      },
+
+      "services": {
+        "title": "Services",
+        "content": "Jameela Hussain provides transportation and logistics solutions including but not limited to fuel transportation, water tanker delivery, tanker rental services, construction material transport, bulk logistics services, and emergency transportation support."
+      },
+
+      "quotes": {
+        "title": "Quotes and Pricing",
+        "content": "All quotations provided through the website are estimates only and do not constitute a binding agreement until confirmed by Jameela Hussain."
+      },
+
+      "customer": {
+        "title": "Customer Responsibilities",
+        "content": "Customers agree to provide accurate information when requesting services, submitting forms, or communicating with Jameela Hussain."
+      },
+
+      "safety": {
+        "title": "Safety and Compliance",
+        "content": "Jameela Hussain operates under applicable safety standards and industry regulations. Services may be delayed, suspended, or canceled when safety concerns or regulatory restrictions arise."
+      },
+
+      "website": {
+        "title": "Website Usage",
+        "content": "Users may not submit false information, attempt unauthorized access, use the website for unlawful purposes, or interfere with website operations."
+      },
+
+      "ip": {
+        "title": "Intellectual Property",
+        "content": "All website content, branding, logos, images, and text remain the property of Jameela Hussain unless otherwise stated."
+      },
+
+      "liability": {
+        "title": "Limitation of Liability",
+        "content": "Jameela Hussain shall not be liable for indirect, incidental, or consequential damages arising from use of the website or services."
+      },
+
+      "changes": {
+        "title": "Changes to Terms",
+        "content": "Jameela Hussain reserves the right to update these Terms of Service at any time."
+      },
+
+      "law": {
+        "title": "Governing Law",
+        "content": "These Terms shall be governed by the laws and regulations of the Kingdom of Saudi Arabia."
+      },
+
+      "contact": {
+        "title": "Contact Information",
+        "content": "For questions regarding these Terms, please contact Jameela Hussain through the contact information provided on our website."
+      }
+    }
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "lastUpdated": "Last Updated",
+    "date": "January 2026",
+
+    "sections": {
+      "introduction": {
+        "title": "Introduction",
+        "content": "Jameela Hussain respects your privacy and is committed to protecting your personal information."
+      },
+
+      "collection": {
+        "title": "Information We Collect",
+        "content": "We may collect your name, email address, phone number, company name, job application information, quote requests, contact messages, and website usage data."
+      },
+
+      "usage": {
+        "title": "How We Use Information",
+        "content": "Information may be used to respond to inquiries, provide quotations, process applications, improve services, and comply with legal obligations."
+      },
+
+      "security": {
+        "title": "Data Storage and Security",
+        "content": "We implement reasonable technical and organizational measures to protect personal information."
+      },
+
+      "sharing": {
+        "title": "Data Sharing",
+        "content": "Jameela Hussain does not sell personal information. Information may be shared when required by law or necessary for business operations."
+      },
+
+      "careers": {
+        "title": "Job Applications",
+        "content": "Information submitted through career applications is used solely for recruitment and employment evaluation."
+      },
+
+      "cookies": {
+        "title": "Cookies and Analytics",
+        "content": "Our website may use cookies and analytics tools to improve user experience and monitor website performance."
+      },
+
+      "thirdParty": {
+        "title": "Third-Party Services",
+        "content": "We may use third-party providers for hosting, analytics, communications, and website operations."
+      },
+
+      "retention": {
+        "title": "Data Retention",
+        "content": "Personal information is retained only as long as necessary for legal, operational, and business purposes."
+      },
+
+      "rights": {
+        "title": "Your Rights",
+        "content": "Subject to applicable Saudi laws, you may request access, correction, or deletion of your personal information where legally permitted."
+      },
+
+      "updates": {
+        "title": "Policy Updates",
+        "content": "We may update this Privacy Policy periodically."
+      },
+
+      "contact": {
+        "title": "Contact Us",
+        "content": "For privacy-related inquiries, please contact Jameela Hussain  using the details available on our website."
+      }
+    }
+  }
+}
