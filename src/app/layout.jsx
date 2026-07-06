@@ -4,7 +4,7 @@ import Providers from "@/lib/providers";
 import StructuredData from "@/components/StructuredData";
 
 export const metadata = {
-  metadataBase: new URL("https://www.jameela.com"),
+  metadataBase: new URL("https://www.jamelahussin.com"),
   title: {
     default: "Jameela Hussain | Fuel, Water & Heavy Transport — Saudi Arabia",
     template: "%s | Jameela Hussain Transport KSA",
@@ -40,7 +40,7 @@ export const metadata = {
     type: "website",
     locale: "en_US",
     alternateLocale: "ar_SA",
-    url: "https://www.jameela.com",
+    url: "https://www.jamelahussin.com",
     siteName: "Jameela Hussain Transport",
     title: "Jameela Hussain | Fuel, Water & Heavy Transport — Saudi Arabia",
     description:

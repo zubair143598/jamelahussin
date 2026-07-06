@@ -50,7 +50,7 @@ export default function ContactForm({ locale, dict }) {
     {
       icon: Mail,
       label: dict.contact.email,
-      value: "info@jameela.com",
+      value: "info@jamelahussin.com.com",
     },
     {
       icon: Clock,

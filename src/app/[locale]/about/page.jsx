@@ -13,18 +13,18 @@ export async function generateMetadata({ params }) {
       ? "تعرف على شركة جميلة حسين، شركة نقل سعودية متخصصة في نقل المنتجات البترولية والمياه ومواد البناء باستخدام أحدث أسطول مرسيدس بنز."
       : "Jameela Hussain is a Saudi-owned transport company with 15+ years of experience operating Aramco-certified Mercedes-Benz Actros MP4/MP5 tankers across the Kingdom.",
     alternates: {
-      canonical: `https://www.jameela.com/${locale}/about`,
+      canonical: `https://www.jamelahussin.com/${locale}/about`,
       languages: {
-        en: "https://www.jameela.com/en/about",
-        ar: "https://www.jameela.com/ar/about",
-        "x-default": "https://www.jameela.com/en/about",
+        en: "https://www.jamelahussin.com/en/about",
+        ar: "https://www.jamelahussin.com/ar/about",
+        "x-default": "https://www.jamelahussin.com/en/about",
       },
     },
     openGraph: {
       title: "About | Jameela Hussain Transport KSA",
       description:
         "Saudi-owned transport company with 15+ years of experience. Aramco-certified fleet of Mercedes-Benz tankers.",
-      url: `https://www.jameela.com/${locale}/about`,
+      url: `https://www.jamelahussin.com/${locale}/about`,
       images: [{ url: "/fleet-aramco.jpg", width: 1600, height: 900, alt: "Jameela Hussain fleet at Aramco terminal" }],
     },
   };

@@ -14,11 +14,11 @@ export async function generateMetadata({ params }) {
       ? "شركة جميلة حسين للنقل الثقيل — ناقلات أرامكو للوقود، توصيل المياه، مواد البناء. خدمة 24/7 في جميع أنحاء المملكة."
       : "Saudi Arabia's trusted heavy transport partner. Aramco-certified fuel tankers, water delivery & construction materials across the Kingdom. 15+ years, 500M+ liters delivered.",
     alternates: {
-      canonical: `https://www.jameela.com/${locale}`,
+      canonical: `https://www.jamelahussin.com/${locale}`,
       languages: {
-        en: "https://www.jameela.com/en",
-        ar: "https://www.jameela.com/ar",
-        "x-default": "https://www.jameela.com/en",
+        en: "https://www.jamelahussin.com/en",
+        ar: "https://www.jamelahussin.com/ar",
+        "x-default": "https://www.jamelahussin.com/en",
       },
     },
   };

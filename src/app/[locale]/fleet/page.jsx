@@ -13,18 +13,18 @@ export async function generateMetadata({ params }) {
       ? "أسطول من ناقلات مرسيدس بنز أكتروس MP4 وMP5 معتمدة من أرامكو لنقل الوقود والمياه وعمليات النقل الثقيل في المملكة."
       : "Premium Mercedes-Benz Actros MP4 & MP5 tankers certified to Aramco standards. Multi-compartment fuel tankers and stainless-steel water tankers operating across Saudi Arabia.",
     alternates: {
-      canonical: `https://www.jameela.com/${locale}/fleet`,
+      canonical: `https://www.jamelahussin.com/${locale}/fleet`,
       languages: {
-        en: "https://www.jameela.com/en/fleet",
-        ar: "https://www.jameela.com/ar/fleet",
-        "x-default": "https://www.jameela.com/en/fleet",
+        en: "https://www.jamelahussin.com/en/fleet",
+        ar: "https://www.jamelahussin.com/ar/fleet",
+        "x-default": "https://www.jamelahussin.com/en/fleet",
       },
     },
     openGraph: {
       title: "Fleet | Jameela Hussain Transport KSA",
       description:
         "Mercedes-Benz Actros MP4 & MP5 tankers — Aramco-certified, modern fleet for fuel & water transport.",
-      url: `https://www.jameela.com/${locale}/fleet`,
+      url: `https://www.jamelahussin.com/${locale}/fleet`,
       images: [{ url: "/hero-truck.jpg", width: 1920, height: 1080, alt: "Jameela Hussain Mercedes Actros fleet" }],
     },
   };

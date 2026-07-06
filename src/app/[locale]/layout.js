@@ -14,11 +14,11 @@ export async function generateMetadata({ params }) {
 
   return {
     alternates: {
-      canonical: `https://www.jameela.com/${locale}`,
+      canonical: `https://www.jamelahussin.com/${locale}`,
       languages: {
-        "en": "https://www.jameela.com/en",
-        "ar": "https://www.jameela.com/ar",
-        "x-default": "https://www.jameela.com/en",
+        "en": "https://www.jamelahussin.com/en",
+        "ar": "https://www.jamelahussin.com/ar",
+        "x-default": "https://www.jamelahussin.com/en",
       },
     },
     openGraph: {

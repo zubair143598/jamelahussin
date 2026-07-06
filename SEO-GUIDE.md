@@ -25,7 +25,7 @@
 ### 4. `src/app/sitemap.js` — Auto-generates `/sitemap.xml`
 - Lists all your pages for Google to crawl
 - Includes EN + AR versions with hreflang
-- Deployed at: `https://www.jameela.com/sitemap.xml`
+- Deployed at: `https://www.jamelahussin.com/sitemap.xml`
 
 ### 5. `src/app/robots.js` — Auto-generates `/robots.txt`
 - Tells Google which pages to crawl
@@ -47,7 +47,7 @@
 ## STEP-BY-STEP: WHAT TO DO AFTER DEPLOYING
 
 ### STEP 1 — Update your real domain
-Search for `jameela.com` in all files and replace with your actual domain.
+Search for `jamelahussin.com` in all files and replace with your actual domain.
 Files to update:
 - `src/app/layout.jsx`
 - `src/app/sitemap.js`

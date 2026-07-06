@@ -10,7 +10,7 @@ export default function robots() {
         disallow: ["/api/", "/_next/"],
       },
     ],
-    sitemap: "https://www.jameela.com/sitemap.xml",
-    host: "https://www.jameela.com",
+    sitemap: "https://www.jamelahussin.com/sitemap.xml",
+    host: "https://www.jamelahussin.com",
   };
 }

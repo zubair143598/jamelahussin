@@ -13,11 +13,11 @@ export async function generateMetadata({ params }) {
       ? "تواصل مع شركة جميلة حسين للنقل — متاحون 24/7 للطلبات العاجلة. الرياض، المملكة العربية السعودية."
       : "Contact Jameela Hussain for fuel transport, water delivery, and logistics services. Available 24/7 for urgent requests. Based in Riyadh, Saudi Arabia.",
     alternates: {
-      canonical: `https://www.jameela.com/${locale}/contact`,
+      canonical: `https://www.jamelahussin.com/${locale}/contact`,
       languages: {
-        en: "https://www.jameela.com/en/contact",
-        ar: "https://www.jameela.com/ar/contact",
-        "x-default": "https://www.jameela.com/en/contact",
+        en: "https://www.jamelahussin.com/en/contact",
+        ar: "https://www.jamelahussin.com/ar/contact",
+        "x-default": "https://www.jamelahussin.com/en/contact",
       },
     },
   };

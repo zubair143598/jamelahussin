@@ -13,18 +13,18 @@ export async function generateMetadata({ params }) {
       ? "نخدم سلسلة توريد أرامكو، محطات الوقود، قطاع البناء، الصناعة، إمدادات المياه البلدية والمواقع النائية في المملكة."
       : "Trusted by Saudi Aramco supply chain, petrol stations, construction contractors, industrial facilities, municipal water suppliers, and remote event sites across KSA.",
     alternates: {
-      canonical: `https://www.jameela.com/${locale}/industries`,
+      canonical: `https://www.jamelahussin.com/${locale}/industries`,
       languages: {
-        en: "https://www.jameela.com/en/industries",
-        ar: "https://www.jameela.com/ar/industries",
-        "x-default": "https://www.jameela.com/en/industries",
+        en: "https://www.jamelahussin.com/en/industries",
+        ar: "https://www.jamelahussin.com/ar/industries",
+        "x-default": "https://www.jamelahussin.com/en/industries",
       },
     },
     openGraph: {
       title: "Industries | Jameela Hussain Transport KSA",
       description:
         "Serving Aramco, petrol stations, construction, industrial, municipal water, and remote sites across Saudi Arabia.",
-      url: `https://www.jameela.com/${locale}/industries`,
+      url: `https://www.jamelahussin.com/${locale}/industries`,
     },
   };
 }

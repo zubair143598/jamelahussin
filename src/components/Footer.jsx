@@ -94,11 +94,10 @@ const Footer = ({ locale, t }) => {
               {t.contact.address}
             </li>
             <li className="flex items-center gap-2">
-              <Phone className="w-4 h-4 text-primary shrink-0" /> +966 50 000
-              0000
+                <Phone className="w-4 h-4 text-primary shrink-0" /> +966559437759
             </li>
             <li className="flex items-center gap-2">
-              <Mail className="w-4 h-4 text-primary shrink-0" /> info@jameela.com
+              <Mail className="w-4 h-4 text-primary shrink-0" /> info@jamelahussin.com
             </li>
           </ul>
 

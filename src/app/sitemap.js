@@ -1,7 +1,7 @@
 // src/app/sitemap.js
 // Next.js auto-generates /sitemap.xml from this file
 
-const BASE_URL = "https://www.jameela.com";
+const BASE_URL = "https://www.jamelahussin.com";
 
 const pages = [
   { path: "", priority: 1.0, changeFrequency: "weekly" },

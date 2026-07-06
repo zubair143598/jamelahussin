@@ -8,8 +8,8 @@ export default function StructuredData() {
     "@type": "Organization",
     name: "Jameela Hussain Transport",
     alternateName: "جميلة حسين للنقل",
-    url: "https://www.jameela.com",
-    logo: "https://www.jameela.com/logo4.png",
+    url: "https://www.jamelahussin.com",
+    logo: "https://www.jamelahussin.com/logo4.png",
     description:
       "Saudi-owned heavy transport company operating Aramco-certified Mercedes-Benz Actros tankers across the Kingdom of Saudi Arabia.",
     foundingDate: "2010",
@@ -25,7 +25,7 @@ export default function StructuredData() {
     contactPoint: [
       {
         "@type": "ContactPoint",
-        telephone: "+966-50-000-0000",
+        telephone: "+966559437759",
         contactType: "customer service",
         availableLanguage: ["English", "Arabic"],
         hoursAvailable: {
@@ -43,7 +43,7 @@ export default function StructuredData() {
       },
       {
         "@type": "ContactPoint",
-        telephone: "+966-50-000-0000",
+        telephone: "+966559437759",
         contactType: "emergency",
         availableLanguage: ["English", "Arabic"],
       },
@@ -58,12 +58,12 @@ export default function StructuredData() {
   const localBusinessSchema = {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
-    "@id": "https://www.jameela.com/#business",
+    "@id": "https://www.jamelahussin.com/#business",
     name: "Jameela Hussain Transport",
-    image: "https://www.jameela.com/hero-truck.jpg",
-    url: "https://www.jameela.com",
-    telephone: "+966-50-000-0000",
-    email: "info@jameela.com",
+    image: "https://www.jamelahussin.com/hero-truck.jpg",
+    url: "https://www.jamelahussin.com",
+    telephone: "+966559437759",
+    email: "info@jamelahussin.com",
     address: {
       "@type": "PostalAddress",
       addressLocality: "Riyadh",
@@ -140,7 +140,7 @@ export default function StructuredData() {
   const websiteSchema = {
     "@context": "https://schema.org",
     "@type": "WebSite",
-    url: "https://www.jameela.com",
+    url: "https://www.jamelahussin.com",
     name: "Jameela Hussain Transport",
     description: "Heavy transport, fuel & water delivery across Saudi Arabia",
     inLanguage: ["en", "ar"],
@@ -148,7 +148,7 @@ export default function StructuredData() {
       "@type": "SearchAction",
       target: {
         "@type": "EntryPoint",
-        urlTemplate: "https://www.jameela.com/en/services",
+        urlTemplate: "https://www.jamelahussin.com/en/services",
       },
       "query-input": "required name=search_term_string",
     },

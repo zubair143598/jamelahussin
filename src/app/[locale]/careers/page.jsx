@@ -13,11 +13,11 @@ export async function generateMetadata({ params }) {
       ? "انضم إلى فريق جميلة حسين — نبحث عن سائقين ومرسلين وميكانيكيين وموظفي عمليات في المملكة العربية السعودية."
       : "Join Jameela Hussain's growing team. We're hiring experienced drivers, dispatchers, mechanics, and operations staff across Saudi Arabia.",
     alternates: {
-      canonical: `https://www.jameela.com/${locale}/careers`,
+      canonical: `https://www.jamelahussin.com/${locale}/careers`,
       languages: {
-        en: "https://www.jameela.com/en/careers",
-        ar: "https://www.jameela.com/ar/careers",
-        "x-default": "https://www.jameela.com/en/careers",
+        en: "https://www.jamelahussin.com/en/careers",
+        ar: "https://www.jamelahussin.com/ar/careers",
+        "x-default": "https://www.jamelahussin.com/en/careers",
       },
     },
   };

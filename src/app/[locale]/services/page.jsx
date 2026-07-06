@@ -14,18 +14,18 @@ export async function generateMetadata({ params }) {
       ? "نقل الوقود من أرامكو، توصيل المياه، تأجير الناقلات، نقل مواد البناء، الخدمات اللوجستية الثقيلة، والطوارئ على مدار الساعة."
       : "Petrol 91/95, diesel & kerosene transport, water tanker delivery, tanker rental, construction materials, bulk logistics, and 24/7 emergency supply across Saudi Arabia.",
     alternates: {
-      canonical: `https://www.jameela.com/${locale}/services`,
+      canonical: `https://www.jamelahussin.com/${locale}/services`,
       languages: {
-        en: "https://www.jameela.com/en/services",
-        ar: "https://www.jameela.com/ar/services",
-        "x-default": "https://www.jameela.com/en/services",
+        en: "https://www.jamelahussin.com/en/services",
+        ar: "https://www.jamelahussin.com/ar/services",
+        "x-default": "https://www.jamelahussin.com/en/services",
       },
     },
     openGraph: {
       title: "Services | Jameela Hussain Transport KSA",
       description:
         "Fuel transport, water delivery, tanker rental, construction materials & 24/7 emergency logistics across the Kingdom.",
-      url: `https://www.jameela.com/${locale}/services`,
+      url: `https://www.jamelahussin.com/${locale}/services`,
     },
   };
 }

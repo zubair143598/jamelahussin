@@ -14,7 +14,7 @@ export async function generateMetadata({ params }) {
       : "Request a quote for fuel transport, water tanker delivery, tanker rental or construction materials. We respond within 24 hours.",
     robots: { index: false }, // Quote form pages are typically noindexed
     alternates: {
-      canonical: `https://www.jameela.com/${locale}/quote`,
+      canonical: `https://www.jamelahussin.com/${locale}/quote`,
     },
   };
 }
