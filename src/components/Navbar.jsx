@@ -64,7 +64,7 @@ const Navbar = ({ locale, t }) => {
 
         <div className="flex items-center gap-2">
           <Button asChild variant="ghost" size="sm" className="gap-1.5">
-            <Link href={toggleLangHref}>
+            <Link href={toggleLangHref} aria-label="Switch language">
               <Globe className="w-4 h-4" />
               <span className="hidden sm:inline">{langLabel}</span>
             </Link>

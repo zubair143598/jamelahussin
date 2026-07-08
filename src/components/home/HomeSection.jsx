@@ -184,7 +184,7 @@ export default function HomeSection({ locale, dict }) {
             </div>
 
             <Button asChild variant="outlineGold">
-              <Link href={`/${locale}/about`}>
+              <Link href={`/${locale}/about`} aria-label="Learn more about Jameela Hussain Transport">
                 {dict.common.learnMore}
                 <ArrowRight className="rtl:rotate-180" />
               </Link>

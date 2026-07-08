@@ -31,25 +31,26 @@ const Footer = ({ locale, t }) => {
           </h4>
           <ul className="space-y-2 text-sm text-muted-foreground">
             <li>
-              <Link href={`/${locale}/about`} className="hover:text-primary">
+              <Link href={`/${locale}/about`}  aria-label="Learn more about Jameela Hussain Transport" className="hover:text-primary">
                 {t.nav.about}
               </Link>
             </li>
             <li>
-              <Link href={`/${locale}/fleet`} className="hover:text-primary">
+              <Link href={`/${locale}/fleet`} aria-label="View our fleet" className="hover:text-primary">
                 {t.nav.fleet}
               </Link>
             </li>
             <li>
               <Link
                 href={`/${locale}/industries`}
+                aria-label="View our industries"
                 className="hover:text-primary"
               >
                 {t.nav.industries}
               </Link>
             </li>
             <li>
-              <Link href={`/${locale}/careers`} className="hover:text-primary">
+              <Link href={`/${locale}/careers`} aria-label="View career opportunities" className="hover:text-primary">
                 {t.nav.careers}
               </Link>
             </li>
