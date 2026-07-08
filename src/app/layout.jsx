@@ -2,6 +2,7 @@
 import "./globals.css";
 import Providers from "@/lib/providers";
 import StructuredData from "@/components/StructuredData";
+import { Inter, Playfair_Display, Tajawal } from "next/font/google";
 
 export const metadata = {
   metadataBase: new URL("https://www.jamelahussin.com"),
@@ -66,15 +67,35 @@ export const metadata = {
     shortcut: "/favicon.ico",
   },
   verification: {
-    // Add your Google Search Console verification code here after registering
-    // google: "YOUR_GOOGLE_VERIFICATION_CODE",
+     google: "W_zJYjPlMY5MMU36cgNamx3q8fKoJA1gEzEhz4I7ZIo",
   },
 };
+
+const inter = Inter({
+  subsets: ["latin"],
+  weight: ["400", "500", "600", "700", "800"],
+  variable: "--font-inter",
+  display: "swap",
+});
+
+const playfair = Playfair_Display({
+  subsets: ["latin"],
+  weight: ["600", "700", "800"],
+  variable: "--font-playfair",
+  display: "swap",
+});
+
+const tajawal = Tajawal({
+  subsets: ["arabic", "latin"],
+  weight: ["400", "500", "700", "800"],
+  variable: "--font-tajawal",
+  display: "swap",
+});
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body>
+      <body className={`${inter.variable} ${playfair.variable} ${tajawal.variable}`}>
         <StructuredData />
         <Providers>{children}</Providers>
       </body>

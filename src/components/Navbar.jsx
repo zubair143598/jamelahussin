@@ -44,7 +44,7 @@ const Navbar = ({ locale, t }) => {
       <div className="container-tight flex items-center justify-between h-18 py-3">
         <Link href={`/${locale}`} className="flex items-center gap-2">
           <Image src='/logo4.png' alt="Jameela_hussain_logo" className="object-contain" width={140} height={140} priority />
-          {/* <span className="text-xl font-bold tracking-wider text-gradient-gold hidden sm:inline">SHERIKA</span> */}
+
         </Link>
 
         <nav className="hidden lg:flex items-center gap-7">

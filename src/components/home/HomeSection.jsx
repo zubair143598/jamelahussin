@@ -71,9 +71,7 @@ export default function HomeSection({ locale, dict }) {
               </Button>
 
               <Button asChild variant="outlineGold" size="xl">
-                <Link href={`/${locale}/services`}>
-                  {dict.hero.cta2}
-                </Link>
+                <Link href={`/${locale}/services`}>{dict.hero.cta2}</Link>
               </Button>
             </div>
           </div>
@@ -148,6 +146,8 @@ export default function HomeSection({ locale, dict }) {
               className="rounded-2xl shadow-elegant w-full"
               width={800}
               height={600}
+              sizes="(max-width: 768px) 100vw, 665px"
+              priority
             />
           </div>
 
@@ -177,11 +177,7 @@ export default function HomeSection({ locale, dict }) {
                   <Icon className="w-6 h-6 text-primary mx-auto mb-2" />
 
                   <div className="text-xs font-semibold">
-                    {[
-                      dict.about.values,
-                      "Aramco",
-                      dict.stats.coverage,
-                    ][i]}
+                    {[dict.about.values, "Aramco", dict.stats.coverage][i]}
                   </div>
                 </div>
               ))}
@@ -214,9 +210,7 @@ export default function HomeSection({ locale, dict }) {
               size="xl"
               className="bg-background text-foreground hover:bg-background/90"
             >
-              <Link href={`/${locale}/quote`}>
-                {dict.common.getQuote}
-              </Link>
+              <Link href={`/${locale}/quote`}>{dict.common.getQuote}</Link>
             </Button>
           </div>
         </div>

@@ -40,17 +40,17 @@ export default function ContactForm({ locale, dict }) {
     {
       icon: MapPin,
       label: dict.contact.address,
-      value: "Riyadh, KSA",
+      value: "Al Quaryyat, KSA",
     },
     {
       icon: Phone,
       label: dict.contact.phone,
-      value: "+966 50 000 0000",
+      value: "+966559437759",
     },
     {
       icon: Mail,
       label: dict.contact.email,
-      value: "info@jamelahussin.com.com",
+      value: "info@jamelahussin.com",
     },
     {
       icon: Clock,
