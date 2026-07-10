@@ -1,6 +1,3 @@
-// src/app/sitemap.js
-// Next.js auto-generates /sitemap.xml from this file
-
 const BASE_URL = "https://www.jamelahussin.com";
 
 const pages = [
@@ -20,6 +17,22 @@ const locales = ["en", "ar"];
 export default function sitemap() {
   const entries = [];
 
+  // ── Root domain entry ──────────────────────
+  entries.push({
+    url: BASE_URL,
+    lastModified: new Date(),
+    changeFrequency: "weekly",
+    priority: 1.0,
+    alternates: {
+      languages: {
+        "en": `${BASE_URL}/en`,
+        "ar": `${BASE_URL}/ar`,
+        "x-default": `${BASE_URL}/en`,   
+      },
+    },
+  });
+
+  // ── Locale pages ──────────────────────────────────────────────────────────
   for (const locale of locales) {
     for (const page of pages) {
       entries.push({
@@ -28,9 +41,11 @@ export default function sitemap() {
         changeFrequency: page.changeFrequency,
         priority: page.priority,
         alternates: {
-          languages: Object.fromEntries(
-            locales.map((l) => [l, `${BASE_URL}/${l}${page.path}`])
-          ),
+          languages: {
+            "en": `${BASE_URL}/en${page.path}`,
+            "ar": `${BASE_URL}/ar${page.path}`,
+            "x-default": `${BASE_URL}/en${page.path}`, 
+          },
         },
       });
     }
